@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    flex-shrink: 1;
+}
+
+.first {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+    margin: 15px 100px 80px 100px;
+}
+
+.header p {
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header ul {
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.hero-left {
+    padding-right: 50px;
+    padding-bottom: 100px;
+    width: 50%;
+}
+
+.hero-right {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: rgb(100,116,124);
+    color: rgb(185,188,191);	
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.hero-left h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight:900;
+    color: #f9faf8;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-left button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    border: 0ch;
+    padding: 5px 10px 5px 10px;
+}
+
+.second {
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second h1 {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.info-container {
+    justify-content: center;
+    display: flex;
+    flex-shrink: 1;
+    gap: 48px;
+}
+
+.image-container {
+    height: 150px;
+    width: 150px;
+    border: solid;
+    color: blue;
+    border-radius: 8px;
+}
+
+.info p {
+    width: 150px;
+}
+
+.third {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+    padding: 150px 200px 0px 200px;
+    margin: 0;
+}
+
+.signature {
+    text-align: right;
+    padding: 0px 200px 150px 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+.fourth .content {
+    height: 150px;
+    width: 1000px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 100px auto 100px auto;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fourth .content h1 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.fourth .content p {
+    font-size: 14px;
+    margin-top: 4px;
+
+}
+
+.fourth .content button {
+    border: solid;
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 15px 5px 15px;
+    border-radius: 6px;
+    border-width: 2px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+}
